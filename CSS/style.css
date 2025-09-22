@@ -908,6 +908,9 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+.work{
+  min-height: 85vh;
+}
 
 /* work section ends */
 
