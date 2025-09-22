@@ -908,9 +908,6 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
-.work{
-  min-height: 85vh;
-}
 
 /* work section ends */
 
@@ -1069,6 +1066,10 @@ header .navbar ul li a:hover {
     min-height: 80vh;
   }
 
+  .work {
+    min-height: 85vh;
+  }
+
   .experience .timeline {
     margin-top: 2rem;
   }
@@ -1076,9 +1077,11 @@ header .navbar ul li a:hover {
   .experience .timeline::after {
     left: 31px;
   }
+
   .work .box-container .box:hover .content {
-  top: 10%;
-}
+    top: 10%;
+  }
+
   .experience .container {
     width: 100%;
     padding-left: 8rem;
