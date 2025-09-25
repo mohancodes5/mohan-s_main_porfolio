@@ -44,7 +44,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Mohan";
-            $("#favicon").attr("href", "assest/favicon.png");
+            $("#favicon").attr("href", "assest/tittle.png");
         }
         else {
             document.title = "Come Back To Portfolio";
